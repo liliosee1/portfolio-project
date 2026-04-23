@@ -1,0 +1,86 @@
+
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, serif;
+  background-color: #2b2b2b;
+  color: #f5f0eb;
+  min-height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #f5f0eb;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.page-header {
+  text-align: center;
+  padding: 40px 20px 10px;
+}
+
+.page-header h1 {
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 8px;
+}
+
+.tagline {
+  font-size: 13px;
+  font-style: italic;
+  color: #bbb;
+  margin-bottom: 50px;
+}
+
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 20px 80px 60px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.skills-grid .skill-card:nth-child(4) {
+  grid-column: 1;
+}
+
+.skill-card {
+  background-color: transparent;
+  border-left: 3px solid #f5f0eb;
+  padding: 16px 20px;
+}
+
+.skill-card h3 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+
+.skill-card p {
+  font-size: 12px;
+  color: #bbb;
+  line-height: 1.7;
+}
