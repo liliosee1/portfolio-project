@@ -71,7 +71,7 @@ nav ul li a:hover {
 
 .contact-row {
   display: flex;
-  gap: 40px;
+  gap: 30px;
   flex-wrap: wrap;
 }
 
